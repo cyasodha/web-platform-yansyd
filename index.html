@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0px;
+            outline: 0px;
+            padding: 0px;
+            
+            
+        }
+        body{
+            width: 100%;
+            height: 300vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+            color: #0a2458;
+            font-family: Arial, Helvetica, sans-serif; 
+            font-weight:600;
+            
+        }
+        header{
+            width: 60% ;
+            height: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+        }
+        header h1{
+            text-align: center;
+        }
+        .breadcrumb{
+            width: 60%;
+            height: 10%;
+            display: flex;
+            justify-content: space-around;
+        }
+        .line{
+            width: 80%;
+            height: 1px;
+            border: 1px solid #0a2458;
+            background-color: #0a2458;
+        } 
+        .breadcrumb p:hover{
+            color: red;
+        }
+        .breadcrumb i:hover{
+            color: red;
+        }
+        .color{
+            width: 6%;
+            height: 100px;
+             margin-left: -97%;
+            position: fixed; 
+            top: 50vh;
+            z-index: 10;
+        }
+        .color1{
+            width: 100%;
+            height: 50%;
+            border: 2px solid  #0a2458;
+            border-top-right-radius: 10px;
+            display: flex; 
+            align-items: center;
+            justify-content: center;
+        }
+        .color2{
+            width: 100%;
+            height: 50%;
+            border: 2px solid #0a2458;
+            border-bottom-right-radius: 10px;
+            display: flex; 
+            align-items: center;
+            justify-content: center;
+        }
+        .introduction{
+            width: 60%;
+        }
+        .first-section{
+            width: 60%;
+        }
+        .second-section{
+            width: 60%;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <header id="a1">
+        <p>AUGUST 19, 2022
+        </p>
+        <h1 style="line-height: 40px;">
+            FACT SHEET: How the Inflation Reduction Act Helps Asian American, Native Hawaiian, and Pacific Islander
+            Communities
+        </h1>
+        <div class="line"></div>
+        <div class="breadcrumb">
+            <p><i class="fa-solid fa-landmark-flag"></i></p>
+            <p>></p>
+            <p>BRIEFING ROOM</p>
+            <p>></p>
+            <p>STATEMENTS AND RELEASES</p>
+        </div>
+        <div class="line"></div>
+    </header>
+    <div class="color">
+        <div class="color1" onclick="fun()">dark</div>
+        <div class="color2" onclick="fun1()">style I</div>
+    </div>
+  
+
+    <div class="introduction"  id="a1" >
+        <p style="line-height: 30px;" >
+            By signing the Inflation Reduction Act, President Biden is delivering on his promise to build an economy
+            that works for working families, including Asian American, Native Hawaiian, and Pacific Islander (AA and
+            NHPI) families. The Inflation Reduction Act lowers prescription drug costs, health care costs, and
+            energy costs. It’s the most aggressive action we have taken to confront the climate crisis. It’ll lower
+            the deficit and ask the super wealthy and corporations to pay their fair share. And no one making under
+            $400,000 per year will pay a penny more in taxes.
+        </p>
+        <p style="line-height: 30px;">
+            President Biden and Congressional Democrats beat back the special interests to pass this historic
+            legislation that lowers costs for Americans and their families, advances environmental justice while
+            building a cleaner future, and grows the economy from the bottom up and the middle out.
+        </p>
+    </div>
+
+    <div class="first-section" id="a1"> 
+        <h2>LOWER HEALTH CARE COSTS</h2>
+        <p style="line-height: 30px;">
+            The Inflation Reduction Act (IRA) will lower health care costs, including prescription drug costs, and
+            expand health insurance coverage for AA and NHPI families.
+        </p>
+
+        <p style="line-height: 30px;">
+            Lower Prescription Drug Costs for Seniors: Americans pay 2-3 times more for their prescription drugs
+            than people in other wealthy countries. Nearly 1 in 4 Americans struggle to afford prescription drugs,
+            and high prices contribute to racial and ethnic health inequities. The Inflation Reduction Act will help
+            close the gap in access to medication by improving prescription drug coverage and lowering drug prices
+            in Medicare. The law:
+        </p>
+
+        <ul>
+            <li style="line-height: 30px;">
+                Caps the amount that seniors will have to pay for prescription drugs they buy at the pharmacy at
+                $2,000 a year, giving peace of mind to seniors who no longer have to worry about spending thousands
+                and thousands more on prescription drugs.
+            </li>
+
+            <li style="line-height: 30px;">
+                Caps the amount that seniors will have to pay for insulin at $35 for a month’s supply.
+
+            </li>
+
+            <li style="line-height: 30px;">
+                Provides access to a number of additional free vaccines, including the shingles vaccine, for
+                Medicare beneficiaries.
+            </li>
+        </ul>
+    </div>
+
+    <div class="second-section" id="a1">
+        <h2>
+            MAKE THE TAX CODE FAIRER
+        </h2>
+
+        <p style="line-height: 30px;">
+            President Trump and Congressional Republicans’ 2017 tax law only made an unfair tax system worse. The
+            Inflation Reduction Act of 2022 is a critical step forward in making our tax code fairer. It will raise
+            revenue by:
+        </p>
+
+        <ul>
+            <li style="line-height: 30px;">
+                Ensuring that high-income people and large corporations pay the taxes they already owe.
+            </li>
+
+            <li style="line-height: 30px;">
+                Cracking down on large, profitable corporations that currently get away with paying no federal
+                income tax.
+            </li>
+
+            <li style="line-height: 30px;">
+                Imposing a 1% surcharge on corporate stock buybacks that will encourage businesses to invest
+            </li>
+        </ul>
+
+        <p style="line-height: 30px;">
+            The legislation’s tax reforms won’t just raise revenue to finance critically needed investments to lower
+            costs and combat climate change, they are also an important component of building an economy that
+            rewards work rather than wealth and doesn’t let the rich and powerful get away with playing by a
+            separate set of rules.
+        </p>
+
+        <p style="line-height: 30px;">
+
+            Millions of working families will have better access to the benefits they are entitled to under the tax
+            code and be able to get their questions answered quickly and efficiently, thanks to the Act’s
+            transformational investments in the Internal Revenue Service. And, no family making less than $400,000
+            per year will see their taxes go up by a single cent.
+        </p>
+
+        <p>
+            ###
+        </p>
+    </div>
+    <script>
+        function fun(){
+            let clr=document.getElementsByClassName("color1")
+           if (clr[0].innerHTML=="dark"){
+            document.getElementsByTagName("body")[0].style.backgroundColor="black"
+            document.getElementsByTagName("body")[0].style.color="white"
+            clr[0].innerHTML="white"
+           }
+           else{
+            document.getElementsByTagName("body")[0].style.backgroundColor="white"
+            document.getElementsByTagName("body")[0].style.color="#0a2458"
+            clr[0].innerHTML="dark"
+           }
+            
+        }
+        function fun1(){
+            let fnt=document.getElementsByClassName("color2")
+            if(fnt[0].innerHTML=="style I"){
+                document.getElementsByTagName("body")[0].style.fontFamily="'lobster',cursive"
+                fnt[0].innerHTML="style A"
+                document.getElementsByTagName("body")[0].style.wordSpacing="10px"
+            }
+            else{
+                document.getElementsByTagName("body")[0].style.fontFamily="Arial, Helvetica, sans-serif"
+                fnt[0].innerHTML="style I"
+                document.getElementsByTagName("body")[0].style.wordSpacing="0px"
+
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
